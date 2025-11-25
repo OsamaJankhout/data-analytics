@@ -1,0 +1,16 @@
+3. Write a Python code to demonstrate prescriptive analytic techniques to determine the optimal weights
+(WI, W2, and W3) for rainfall, max temperature, and vegetation index to predict the Environmental Suitability Index (ESI) and minimize the error against actual data using the formula
+ESI = W1 * Rainfall + W2 * Max Temperature + W3 * Vegetation Index
+Constraints:
+Weight Ranges: W1, W2, W3 € [ 0, 1]
+Objective:
+Optimize W1, W2, and W3 to minimize the difference between the calculated predicted ESI and the actual ESI values in the dataset, using Mean Squared Error (MSE) as the loss function.
+1
+MSE Loss =
+1/n sigma n, i = 1(Actual ESI[i] - predicted ESI[l)?
+Methodology
+• Implement at least three metaheuristic optimization methods, such as Genetic Algorithm (GA),
+Particle Swarm Optimization (PSO), or others.
+• Perform a minimum of 10 runs for each optimization method.
+• Use a population size of 30 across all optimization methods.
+• Set the number of iterations to at least 50 for each optimization method. 
